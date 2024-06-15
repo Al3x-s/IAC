@@ -1,0 +1,13 @@
+{
+  "apiVersion": "tanka.dev/v1alpha1",
+  "kind": "Environment",
+  "metadata": {
+    "name": "environments/infux"
+  },
+  "spec": {
+    "namespace": "influx",
+    "resourceDefaults": {},
+    "expectVersions": {},
+    "apiServer": "https://192.168.49.2:8443"
+  }
+}
